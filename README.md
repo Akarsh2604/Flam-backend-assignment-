@@ -44,5 +44,8 @@ This is a simple python powered background job queue system with a "Streamlit CL
     - Enqueue a job with 100% fail rate : queuectl enqueue {"id":"fail1","command":"python -c \"import sys; sys.exit(1)\""}
     - Start a worker: queuectl worker start --count 1
     - Check Status : queuectl dlq list
+      
+7) **CLEANUP:**
+   To reset everything : rm queuectl.db
 
 
