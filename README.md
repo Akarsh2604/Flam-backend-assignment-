@@ -1,4 +1,4 @@
-# Flam-backend-assignment-
+# CLI BASED BACKGROUND JOB QUEUE SYSTEM
 Building a CLI-based background job queue system:
 This is a simple python powered background job queue system with a "Streamlit CLI interface" i have used Streamlit for providing a very basic and minimal UI for executing the commands specified for the job queue system. It supports enqueuing jobs, running workers, retrying failed jobs with exponential backoff along with managing  a DLQ(Dead Letter Queue).
 
